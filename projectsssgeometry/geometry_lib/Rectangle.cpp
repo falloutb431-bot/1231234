@@ -1,0 +1,7 @@
+#include "Rectangle.h"
+
+Rectangle::Rectangle(double a, double b)
+    : Quadrilateral(a, b, a, b, 90, 90, 90, 90) {
+}
+
+std::string Rectangle::type() const { return "Прямоугольник"; }
